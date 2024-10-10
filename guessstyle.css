@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    margin: 1px;
+    overflow: hidden;
+}
+
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#yourGuess {
+    width: 170px;
+}
+
+#board{
+    margin-top: 10%;
+    padding-top: 1rem;
+    background-color: blanchedalmond;
+    width: 650px;
+    height: 530px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#gameoutput{
+    text-align: center;
+}
+
+#entryform{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    display: flex;
+    text-align: center;
+}
+
+#playagain{
+    display: none;
+}
+
+#guesstracker{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#guessmatrix{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 320px;
+    height:320px;
+    background-color: beige;
+    margin-right: 3rem;
+    margin-top: 3.5rem;
+}
+
+.matrixelement{
+    width: 30px;
+    height:30px;
+    align-content: center;
+    text-align: center;
+    color: beige;
+    background-color: brown;
+}
+
+#currentGuess{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#playagain{
+    text-align: center;
+    margin: 10px;
+}
+
+#btn_playagain{
+    color: beige;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: green;
+    border: 0;
+}
+
+#recentguesses{
+    background-color: black;
+    color: aqua;
+    height: 250px;
+    width: 200px;
+}
+
+#gamemessage{
+    text-align: center;
+    border: 2px dotted red;
+    width: 200px;
+    padding: .25rem;
+    font-size: 1.5rem;
+    margin: 40px 0 30px 0;
+    background-color: chartreuse;
+
+}

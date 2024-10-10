@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="guessstyle.css">
+   <script src="guessscript.js" defer></script>
+
+    <title>Guess a number</title>
+</head>
+<body>
+    <div id="board">
+        <h1>Guess the correct number</h1> <h1>between 1 and 100</h1>
+        
+        <div id="entryform">
+            <form action="" method="get">
+            <input type="number" name="yourguess" id="yourGuess" min="1" max="100" placeholder="Enter a number 1 - 100">
+            <button type="submit" onclick="checkGuess()">Submit guess</button>
+            </form>
+        </div>
+        <div id="currentGuess">
+            <div id="guessmatrix"></div>
+            <div id="gameoutput">
+                <div id="guesstracker">GUESS TRACKER</div>
+                <div id="gamemessage">GAME MESSAGE</div>
+                <div id="playagain"><button id="btn_playagain">Play again</button></div>
+                <div id="recentguesses"><h3>Latest guesses:</h3><ol id="earlierGuesses"></ol></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+    
+</html>

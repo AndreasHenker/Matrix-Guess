@@ -95,6 +95,7 @@ function checkGuess(number = parseInt(yourGuess.value)){
     });
     guesses.innerHTML = tries;
     console.log(tries);
+    yourGuess.value = "";
     guess.innerText="";
 };
 

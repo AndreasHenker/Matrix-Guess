@@ -15,8 +15,12 @@ div{
 
 body{
     background-color: lightgray;
+    border: 1px solid blue;
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -25,7 +29,7 @@ body{
 }
 
 #board{
-    margin-top: 10%;
+
     padding-top: 1rem;
     background-color: blanchedalmond;
     width: 650px;

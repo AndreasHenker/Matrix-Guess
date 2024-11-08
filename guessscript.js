@@ -1,5 +1,4 @@
 const guesses = document.getElementById("earlierGuesses");
-//const guess = document.getElementById("currentGuess");
 const yourGuess = document.getElementById("yourGuess");
 const btn_playagain = document.getElementById("btn_playagain");
 const matrix = document.getElementById("guessmatrix");
@@ -8,7 +7,7 @@ const guess = document.getElementById("guesstracker");
 
 let targetnumber = Math.round(Math.random()*100);
 
-console.log(targetnumber);
+//console.log(targetnumber);
 
 let allMyGuesses = [];
 
